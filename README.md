@@ -1,6 +1,6 @@
 # Documentação Swagger
 
-Pasta /DocSwagger ou em https://app.swaggerhub.com/apis-docs/GUSTTAVOLOCATELLIPOR/G2LS/1.0.0.
+[Pasta /DocSwagger](https://gusttavolp.github.io/G2LS/DocSwagger/docs/index.html) ou em https://app.swaggerhub.com/apis-docs/GUSTTAVOLOCATELLIPOR/G2LS/1.0.0.
 
 # Project G2LS
 
