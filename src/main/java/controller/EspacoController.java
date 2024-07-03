@@ -32,6 +32,7 @@ public class EspacoController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    /* 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteEspacoById(@PathVariable Long id) {
         return espacoService.getEspacoById(id)
@@ -41,4 +42,5 @@ public class EspacoController {
                 })
                 .orElse(ResponseEntity.notFound().build());
     }
+    */
 }

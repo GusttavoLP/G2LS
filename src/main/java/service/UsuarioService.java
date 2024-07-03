@@ -38,8 +38,10 @@ public class UsuarioService {
         if (usuario.getEmail() == null || usuario.getEmail().isEmpty()) {
             throw new IllegalArgumentException("O email do usuário não pode ser vazio");
         }
+        /* 
         if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent()) {
             throw new IllegalArgumentException("Já existe um usuário com este email");
         }
+        */
     }
 }

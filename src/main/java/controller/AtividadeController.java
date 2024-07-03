@@ -32,6 +32,7 @@ public class AtividadeController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    /* 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteAtividadeById(@PathVariable Long id) {
         return atividadeService.getAtividadeById(id)
@@ -41,4 +42,5 @@ public class AtividadeController {
                 })
                 .orElse(ResponseEntity.notFound().build());
     }
+    */
 }

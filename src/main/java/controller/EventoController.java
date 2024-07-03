@@ -32,6 +32,7 @@ public class EventoController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    /* 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteEventoById(@PathVariable Long id) {
         return eventoService.getEventoById(id)
@@ -41,4 +42,5 @@ public class EventoController {
                 })
                 .orElse(ResponseEntity.notFound().build());
     }
+    */
 }

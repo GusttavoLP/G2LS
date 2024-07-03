@@ -41,11 +41,13 @@ public class EspacoService {
         if (espaco.getNome() == null || espaco.getNome().isEmpty()) {
             throw new IllegalArgumentException("O nome do espaço não pode ser vazio");
         }
+        /* 
         if (espaco.getCapacidade() == null || espaco.getCapacidade() <= 0) {
             throw new IllegalArgumentException("A capacidade do espaço deve ser maior que zero");
         }
         if (espaco.getEdicao() == null || !edicaoRepository.existsById(espaco.getEdicao().getId())) {
             throw new IllegalArgumentException("Edição associada inválida");
         }
+        */
     }
 }

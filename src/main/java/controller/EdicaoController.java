@@ -32,6 +32,7 @@ public class EdicaoController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    /* 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteEdicaoById(@PathVariable Long id) {
         return edicaoService.getEdicaoById(id)
@@ -41,4 +42,5 @@ public class EdicaoController {
                 })
                 .orElse(ResponseEntity.notFound().build());
     }
+    */
 }

@@ -32,6 +32,7 @@ public class UsuarioController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    /* 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteUsuarioById(@PathVariable Long id) {
         return usuarioService.getUsuarioById(id)
@@ -41,4 +42,5 @@ public class UsuarioController {
                 })
                 .orElse(ResponseEntity.notFound().build());
     }
+    */
 }
